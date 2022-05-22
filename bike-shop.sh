@@ -161,3 +161,6 @@ EXIT() {
 }
 
 MAIN_MENU
+
+# pg_dump --clean --create --inserts --username=freecodecamp bikes > bikes.sql
+# psql -U postgres < bikes.sql
